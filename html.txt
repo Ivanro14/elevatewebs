@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElevateWebs | Webs que Impactan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">ElevateWebs</div>
+      <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#oferta">Oferta</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+    <div class="hero" id="inicio">
+      <h1>Transformamos Ideas en Webs de Alto Impacto</h1>
+      <p>Soluciones digitales que conectan con tu público y elevan tu negocio.</p>
+      <a href="#contacto"><button class="btn-primary">Solicita tu Web</button></a>
+    </div>
+  </header>
+
+  <section class="section" id="servicios">
+    <h2 data-aos="fade-up">¿Qué Ofrecemos?</h2>
+    <div class="cards" data-aos="fade-up" data-aos-delay="100">
+      <div class="card"><i class="fas fa-bolt"></i><h3>Desarrollo a Medida</h3><p>Código limpio, rápido y optimizado para todos los dispositivos.</p></div>
+      <div class="card"><i class="fas fa-cogs"></i><h3>Automatizaciones</h3><p>Integramos tu web con herramientas que mejoran tus procesos.</p></div>
+      <div class="card"><i class="fas fa-chart-line"></i><h3>SEO Técnico</h3><p>Posicionamos tu web en Google con estructura y velocidad.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="tecnologia">
+    <h2 data-aos="fade-up">Tecnología + Diseño</h2>
+    <div class="cards" data-aos="fade-up" data-aos-delay="150">
+      <div class="card"><i class="fas fa-vr-cardboard"></i><h3>Diseño Interactivo</h3><p>Experiencias envolventes que atraen y retienen.</p></div>
+      <div class="card"><i class="fas fa-cloud"></i><h3>Infraestructura Moderna</h3><p>Hosting rápido, seguro y escalable en la nube.</p></div>
+      <div class="card"><i class="fas fa-lock"></i><h3>Seguridad Total</h3><p>Ciframos y protegemos cada capa de tu sitio.</p></div>
+    </div>
+  </section>
+
+  <section class="section oferta" id="oferta" data-aos="zoom-in">
+    <h2>¡Oferta Especial!</h2>
+    <p class="oferta-text">Por tan solo <strong>10€</strong>, diseñamos y desarrollamos tu web <br> totalmente a tu gusto, con entrega en <strong>24 horas</strong> como máximo.</p>
+    <p class="oferta-subtext">Calidad profesional y rapidez para que tu negocio crezca YA.</p>
+    <a href="#contacto"><button class="btn-offer">¡Quiero mi web ahora!</button></a>
+  </section>
+
+  <section class="section" id="contacto">
+    <h2 data-aos="fade-up">Solicita tu Proyecto</h2>
+    <form action="https://formspree.io/f/mnnvzpok" method="POST" data-aos="fade-up" data-aos-delay="100">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="mensaje" rows="5" placeholder="Describe tu proyecto..." required></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ElevateWebs — Innovación Digital para Empresas Modernas.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
